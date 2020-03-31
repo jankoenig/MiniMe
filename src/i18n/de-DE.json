@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "welcome": {
+      "speech": "Hallo! Wie ist dein Name?",
+      "reprompt": "Bitte sag mir deinen Namen."
+    },
+    "greeting": {
+      "speech": "Hey {{name}}, freut mich!"
+    }
+  }
+}
