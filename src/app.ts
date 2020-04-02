@@ -1,8 +1,16 @@
 import {App} from 'jovo-framework';
-import {Alexa} from 'jovo-platform-alexa';
+
+// Local Development
 import {JovoDebugger} from 'jovo-plugin-debugger';
 import {FileDb} from 'jovo-db-filedb';
+
+// Platforms
+import {Alexa} from 'jovo-platform-alexa';
 import {GoogleAssistant} from 'jovo-platform-googleassistant';
+
+// Plugins
+import { SpeechMarkdown } from 'jovo-plugin-speechmarkdown';
+
 
 // ------------------------------------------------------------------
 // APP INITIALIZATION
@@ -15,6 +23,7 @@ app.use(
     new GoogleAssistant(),
     new JovoDebugger(),
     new FileDb(),
+    new SpeechMarkdown(),
 );
 
 

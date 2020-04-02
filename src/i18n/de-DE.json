@@ -1,7 +1,7 @@
 {
   "translation": {
     "welcome": {
-      "speech": "Hallo! Wie ist dein Name?",
+      "speech": "Hallo! [250ms] Wie ist dein Name?",
       "reprompt": "Bitte sag mir deinen Namen."
     },
     "greeting": {
